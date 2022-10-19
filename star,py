@@ -1,0 +1,18 @@
+#star.py
+
+import turtle
+
+wn = turtle.Screen()
+wn.bgcolor("plum")
+bob= turtle.Turtle()
+bob.color("CadetBlue2")
+bob.pensize(6)
+bob.speed(0)
+
+for i in range (5):
+    bob.forward(100)
+    bob.right(144)
+
+
+
+wn.exitonclick()

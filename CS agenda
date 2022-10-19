@@ -1,0 +1,8 @@
+# CS agenda
+#define variables
+radius = 5
+height = 6 
+# calculate volume
+volume = 3.1415 * radius ** 2* height
+# output result to screen
+print("The volume of yhe tank is", volume, "cubic feet.")
